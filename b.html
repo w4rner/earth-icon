@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> <!-- more modern then <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->  
+        <title>TODO Your 1995 Home Page</title>
+        <meta name="description" content="TODO Description. This profile-page is a homage to the earliest web designers who were working without CSS & JS which were only invented in 1994/5."/> <!-- Meta description tips: https://www.coderseo.com/meta-description-generator -->
+        <!-- <meta name="robots" content="noindex"> robots.txt file overrides-->
+        <link rel="icon" href="media/favicon.ico" type="image/x-icon"> 
+        <base target="_blank"> <!-- only keep with footer script excluding internal links -->
+
+            <!-- TODO uncomment below once created New File called styles.css 
+             style lists to have more space, paragraphs more margin, link color different -->
+            <!-- <link rel="stylesheet" href="styles.css"> -->
+        <style>
+            body {font-size:1.15em}
+
+            audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 125px;
+    height: 25px;}
+            
+    li {
+        list-style-type: "🇺🇸";
+        list-style-position: inside;
+        padding:0.5em;
+    }
+
+    body { text-align: center;}
+
+        </style>
+
+    </head>
+    <body text="#FFFFFF" link="#1877F2" vlink="#77A7FF" bgcolor="#1f2224">
+        
+        <!-- <h1>Earth Icon</h1>
+        <h2>A low carbon high school musical</h2> -->
+        <img src="media/poster.jpg" height="100" width="150">
+        who will be <b>Earth icon</b>?
+        <hr>
+        <!-- Welcome to the planet's hottest song contest (hosted by Zen Co)!
+        3 rounds in California in the last days of 2030. Which state can rap & sing For The Win?! -->
+        <!-- <h2>Synopsis</h2>
+        <p>A contestant in a tech company’s eco-music contest must decide between honoring his comatose mother’s pro-planet dreams or finding acceptance from the company’s fossil-fuelled AI version of her.</p> -->
+        <!-- Bio template: (S)he received a blah in Y from place in 20XX. (s)he was the "blah" and was one of the authors of the nationwide expansion of Corp Inc. Recently, (s)he has been working on Z. -->
+        <ul>
+        <li> MC Conrad, CA  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<audio controls controlsList="nodownload noplaybackrate"><source src="media/test.mp3" type="audio/mpeg">🎶</audio> </li>
+        <li> Alanis Berrios, FL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<audio controls controlsList="nodownload noplaybackrate"><source src="media/test.mp3" type="audio/mpeg">🎶</audio> </li>
+        <li> Manny  Brink, MO &nbsp;&nbsp;&nbsp;&nbsp;<audio controls controlsList="nodownload noplaybackrate"><source src="media/test.mp3" type="audio/mpeg">🎶</audio> </li>
+        <li> Terra  Brink, <strike>MO</strike> AI &nbsp;&nbsp;<audio controls controlsList="nodownload noplaybackrate"><source src="media/test.mp3" type="audio/mpeg">🎶</audio></li>
+        <!-- <li> + you? </li> -->
+        </ul>
+        <!-- Put on the show at your school / theatre, and remix more state anthems (with AI?) -->
+        Now you've heard Tech Power is a problem
+        <br><br>
+        <b><a href="c/index.html">Page C</a> </b>
+            <br><br>
+            for yourself
+        <br><br>
+        <hr> 
+        <small> 
+            ©️ 2024 A Pandit & Warner        </small>
+        <br><br>
+        <div id="wcb" class="carbonbadge wcb-d"><span style="color:white">"Grade: B"</span></div>
+        <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+
+        <!-- BODY END -->
+        <script>
+        var links = document.links;
+        for (var i = 0; i < links.length; i++) {
+        if (links[i].hostname == window.location.hostname) // set other exclusion criteria by adding or conditions within the if parens with ||
+        {
+            links[i].target = "_self";
+        }
+        }
+        </script>
+    </body>
+</html>
